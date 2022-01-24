@@ -1,0 +1,35 @@
+@import url(../index.css);
+
+
+
+
+
+:root
+{
+    --light-blue:#93c5fd;
+    --dark-black:#18181b;
+    --white-color:white;
+    --light-slate:#f1f5f9;
+    --dark-teal:#0f766e;
+    --dark-cyan:#0e7490;
+    --light-teal:#14b8a6;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;      
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.outline
+{
+    border: 2px solid gray;
+}
