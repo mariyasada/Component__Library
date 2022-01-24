@@ -43,7 +43,7 @@
     top:0;
     width: 100%;
     box-shadow: 1px 1px 3px gray;
-    z-index: 1;
+    z-index: 10;
     position: relative;
 }
 .nav-content-container {
@@ -65,6 +65,7 @@
       font-size: 2rem;
       margin:0 1.6rem;
       padding:0.6rem ;
+      font-weight: 600;
   }
   .nav-social-media-icon-container
   {
@@ -94,7 +95,7 @@
       top:7rem;
       left:0;
       bottom: 0;
-      z-index:2;
+      z-index:20;
       width:16rem;
       display: flex;
       align-items: flex-start;
@@ -118,11 +119,12 @@
     grid-row-end:3 ;
     grid-column-start: 2;
     grid-column-end: 3;
-    margin-top:1rem;
+    margin-top:3rem;
     padding-left:9rem;
     position: sticky;
     top:0;
     left:16rem;
+    z-index:18;
 
 }
 .section1-container
@@ -142,8 +144,8 @@
     color: var(--light-teal);
     font-weight: 600;
     position: sticky;
-    top:0.3rem;
-    left:16rem;
+    /* top:0.3rem;
+    left:16rem; */
 }
 .section-text
 {
