@@ -48,6 +48,7 @@
     /* overflow:auto; */
     padding: 0.5rem;  
     margin: auto; 
+    display: none;
 
 }
 .code-example{
