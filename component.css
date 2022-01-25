@@ -38,7 +38,6 @@
 .navbar{
     display:flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     height:7rem;
     position: fixed;
     top:0;
@@ -196,11 +195,19 @@
 } 
 /* first cover page CSS done-----------------------------------Media query starts here-------------------- */
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:900px) {
+    body {
+        max-width: 95%;
+        width: 100%;
+      }
+
     .sidebar-container{
-       display: none;
-       /* font-size: 1.7rem; */
+       font-size: 1rem;
        cursor: pointer;
+       margin-left: auto;
+       padding: 0;
+       width: auto;
+       
     }
     .navbar{
         left:0;
@@ -218,9 +225,16 @@
         word-wrap: break-word;
     }
     .main-content-container {
+        /* display: grid; */
         grid-column-start: 1;
         grid-column-end: 3;
         padding-left: 3px;
         margin-left: 3px;
+      }
+      .alert-list-type-container
+      {
+          width: auto;
+          height: 100%;
+
       }
 }
