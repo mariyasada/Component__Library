@@ -111,7 +111,7 @@
   {
       font-size: 2rem;
       list-style: none;
-      padding: 0.7rem 0.7rem;
+      padding: 0.5rem;
       font-weight: 500;
       align-self: center;
       /* margin-top:2rem; */
@@ -179,6 +179,21 @@
 {
     color:var(--dark-cyan);
 }
+/* components page's sidebar with component's CSS */
+.sidebar-component-list
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: 500;
+    font-size: 2.3rem;
+    /* overflow-y: scroll; */
+}
+.sidebar-component-list.component-active
+{
+     font-weight: 700;
+     color:var(--dark-rose);
+} 
 /* first cover page CSS done-----------------------------------Media query starts here-------------------- */
 
 @media only screen and (max-width:800px) {
