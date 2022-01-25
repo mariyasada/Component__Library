@@ -8,22 +8,60 @@
     margin: 0;
     
 }
+.section-text-content
+{
+    font-size: 1.9rem;
+    max-width: 80vw;
+}
 .alert-list-type-container
 { 
     display: flex;
     flex-direction: column;
-    max-width: 70vw;
-    max-height: 70vw;
-    /* background-color:var(--light-blue); */
+    max-width: 80vw;
+    max-height: 100%;
     border-radius: 2rem;
-    padding: 4rem;
-    border: 2px solid var(--dark-stone);
+    padding: 1rem 3rem;
+    /* border: 2px solid var(--dark-stone); */
+    cursor: pointer;
+    flex: 1;
+}
+.code-heading-container
+{
+    max-width:80vw;
+    font-size: 1.5rem;
+    color: var(--dark-coco);
+}
+.section-code-example-container
+{
+    display: flex;
+    font-size: 3rem;
+    color: var(--light-teal);
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 80vw;
+}
+.code-example-image
+{
+    box-sizing: border-box;
+    max-height: 60rem;
+    max-width: 80vw;
+    /* overflow:auto; */
+    padding: 0.5rem;  
+    margin: auto; 
+
+}
+.code-example{
+    /* max-width:80vw;
+    max-height:100%; */
+    max-height:50rem;
+    max-width:80vw;
+    margin:1rem auto;    
 }
  .alert
 {
     min-height:3rem;
-    min-width:5rem;
-    padding: 0.3rem;
+    min-width:80rem;
+    padding: 0.4rem;
     background-color: wheat;
     border: 2px solid black;
     border-radius: 4px;
@@ -31,17 +69,50 @@
     margin:0;
     justify-content: center;
 }
-.code-heading-container
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    max-width:80vw;
-    font-size: 1.8rem;
-    color: var(--light-teal);
-}
+
 .alert-primary
 {
-    background-color: ;
+    border: 2px solid var(--dark-blue);
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+}
+.alert-secondary
+{
+    border: 2px solid var(--dark-stone);
+    background-color: var(--light-stone);
+    color: var(--dark-stone);
+}
+.alert-success
+{
+    border: 2px solid var(--dark-green);
+    background-color: var(--light-green);
+    color: var(--dark-green);
+}
+.alert-danger
+{
+    border: 2px solid var(--dark-rose);
+    background-color: var(--light-rose);
+    color: var(--dark-rose);
+}
+.alert-warning
+{
+    border: 2px solid var(--dark-orange);
+    background-color: var(--light-orange);
+    color: var(--dark-orange);
+}
+.alert-info
+{
+    border: 2px solid var(--dark-sky);
+    background-color: var(--light-sky);
+    color: var(--dark-sky);
+}
+.alert-with-flex
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.alert-with-flex .fa-times-circle
+{
+    margin-left: auto;
 }

@@ -17,10 +17,18 @@
     --light-stone:#a8a29e;
     --dark-stone:#57534e;
     --dark-green:#14532d;
+    --light-green:#4ade80;
     --dark-zinc:#71717a;
     --dark-sky:#0369a1;
+    --light-sky:#e0f2fe;
     --dark-blue:#05386B;
     --dark-rose:#be123c;
+    --light-rose:#fb7185;
+    --dark-yellow:#ca8a04;
+    --light-yellow:#fde047;
+    --dark-orange:#f97316;
+    --light-orange:#fdba74;
+    --dark-coco:#bb350f;
 }
 
 html{

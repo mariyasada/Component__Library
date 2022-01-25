@@ -160,6 +160,11 @@
     position: sticky;
     top:7rem;
 }
+ /* .section-text-content
+{
+    font-size: 1.9rem;
+    max-width: 80vw;
+} */
 .code-link
 {
     font-size: 2rem;
