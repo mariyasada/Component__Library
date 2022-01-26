@@ -1,4 +1,7 @@
 @import url(../index.css);
+@import url(/component.css);
+@import url(./alert/alert.css);
+@import url(./avatar/avatar.css);
 
 
 
@@ -29,6 +32,7 @@
     --dark-orange:#f97316;
     --light-orange:#fdba74;
     --dark-coco:#bb350f;
+    --dark-purple:#a21caf;
 }
 
 html{

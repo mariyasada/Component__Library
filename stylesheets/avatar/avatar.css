@@ -1,0 +1,120 @@
+.component-type-flex-container
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+    max-height: 100%;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    /* border: 2px solid var(--dark-stone); */
+    cursor: pointer;
+    flex: 1;
+    gap:6rem;
+}
+.image-avatar, 
+.image-avatars-with-outline,
+.text-avatar-container
+{
+    display:flex;
+    max-width:80vw;
+    padding: 0.6rem;
+    gap:4rem;
+    align-items: center;
+}
+/* .image-avatars-with-outline,
+.text-avatar-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+} */
+.bg-purple
+{
+   border: 4px solid var(--dark-purple);
+}
+.bg-blue
+{
+    border: 4px solid var(--light-blue);
+}
+.bg-green
+{
+    border: 4px solid var(--light-green);
+}
+
+.avatar
+{
+    border-radius:50%;
+    object-fit: cover;
+}
+.avatar-xl ,
+.text-avatar-xl
+{
+    height:13rem;
+    width: 13rem;
+}
+.avatar-lg,
+.text-avatar-lg
+{
+    height:11rem;
+    width:11rem;
+}
+
+.avatar-md,
+.text-avatar-md
+{
+    height:7rem;
+    width:7rem;
+}
+.avatar-sm,
+.text-avatar-sm
+{
+    height:5rem;
+    width:5rem;
+}
+.avatar-xsm,
+.text-avatar-xsm
+{
+    height:3rem;
+    width:3rem;
+}
+.text-avatar-xl,
+.text-avatar-sm ,
+.text-avatar-lg,
+.text-avatar-md,
+.text-avatar-xsm
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--dark-purple);
+    color: var(--white-color);
+}
+.text-avatar-xl
+{
+    font-size: 5rem;
+}
+.text-avatar-lg
+{
+    font-size: 3rem;
+}
+.text-avatar-md
+{
+    font-size: 2rem;
+}
+.text-avatar-sm
+{
+    font-size: 1rem;
+}
+.text-avatar-xsm
+{
+    font-size: 1rem;
+}
+.code-snippet img
+{
+    display: inline-block;
+    max-height:80vh;
+    max-width:60vw;
+    object-fit: cover;
+    display: none;
+}
