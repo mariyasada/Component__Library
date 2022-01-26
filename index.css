@@ -155,9 +155,10 @@
 .section-text
 {
     font-size: 1.9rem;
-    max-width: 80vw;
+    max-width: 90vw;
     position: sticky;
     top:7rem;
+    line-height:3rem;
 }
 .code-link
 {
@@ -165,7 +166,7 @@
     color:(--dark-cyan);
     word-wrap: break-word;
     height:auto;
-    max-width:80vw;
+    max-width:90vw;
     padding: 1rem;
     background-color: var(--ex-light-teal);
     color: var(--dark-stone);

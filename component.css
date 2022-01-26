@@ -158,16 +158,17 @@
 .section-text
 {
     font-size: 1.9rem;
-    max-width: 80vw;
+    max-width: 90vw;
     position: sticky;
     top:7rem;
+    line-height:3rem;
 }
 .code-link
 {
     font-size: 2rem;
     color:(--dark-cyan);
     height:auto;
-    max-width:80vw;
+    max-width:90vw;
     padding: 1rem;
     background-color: var(--ex-light-teal);
     color: var(--dark-stone);
@@ -250,5 +251,9 @@
           margin-left: auto;
           margin-right: auto;
 
+      }
+      .section-text
+      {
+            text-align: justify;
       }
 } 
