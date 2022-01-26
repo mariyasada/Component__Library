@@ -163,6 +163,7 @@
 {
     font-size: 2rem;
     color:(--dark-cyan);
+    word-wrap: break-word;
     height:auto;
     max-width:80vw;
     padding: 1rem;
@@ -180,9 +181,9 @@
 }
 /* first cover page CSS done-----------------------------------Media query starts here-------------------- */
 
-@media only screen and (max-width:800px) {
+@media only screen and (min-width:804px) {
     body {
-        max-width: 95%;
+       height: 100%;
         width: 100%;
       }
 
@@ -191,12 +192,13 @@
        cursor: pointer;
        margin-left: auto;
        padding: 0;
-       width: auto;
+       width: 40%;
        
     }
     .navbar{
         left:0;
         top:0;
+        width:100%;
     }
     .nav-social-media-icon-container{
         right:3rem;
@@ -206,13 +208,10 @@
     }
     .code-link
     {
-        width:66rem;
+        width:inherit;
         word-wrap: break-word;
     }
     .main-content-container {
-        /* grid-column-start: 1;
-        grid-column-end: 3; */
-        padding-left: 3px;
-        margin-left: 3px;
+        width:60%;
       }
 }
