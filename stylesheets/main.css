@@ -6,7 +6,7 @@
 
 
 
-
+/* COLORS */
 :root
 {
     --light-blue:#93c5fd;
@@ -34,6 +34,7 @@
     --dark-coco:#bb350f;
     --dark-purple:#a21caf;
 }
+/* RESET CSS */
 
 html{
     font-size: 62.5%;
@@ -54,15 +55,7 @@ a{
     border: 2px solid gray;
 }
 /* components page's sidebar with component's CSS */
-.sidebar-component-list
-{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    font-weight: 500;
-    font-size: 2.5rem;
-    /* overflow-y: scroll; */
-}
+
 .sidebar-component-list.component-active
 {
      font-weight: 700;
