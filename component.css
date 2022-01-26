@@ -239,6 +239,13 @@
         grid-column: 1/3;
         
       }
+      .text-avatar-container,
+      .image-avatar,
+      .image-avatars-with-outline
+      {
+          width:60%;
+      }
+
       .section-code-example-container
       {
             width:60%;

@@ -9,6 +9,6 @@ alertPrimaryBtn.addEventListener("click",()=>{
 
 //  avatar code start here............................
 avatarCodeBtn.addEventListener("click",()=>{
-    console.log("click");
+    console.log("clicked");
     avatarDiv.style.display =="block"?avatarDiv.style.display ="none":avatarDiv.style.display ="block";
 })
