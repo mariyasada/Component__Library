@@ -1,3 +1,4 @@
+@import url(../main.css);
 .component-type-flex-container
 {
     display: flex;
@@ -129,6 +130,10 @@
     body {
         height: 100%;
         width: 100%;
+      }
+      .navbar
+      {
+          width: 100%;
       }
 
      .text-avatar-container,
