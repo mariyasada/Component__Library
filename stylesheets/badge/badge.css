@@ -3,7 +3,7 @@
 .text-badges-container
 {
     display:flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     max-width:80vw;
     padding: 0.6rem;
     gap:2.5rem;
@@ -108,7 +108,7 @@
   top:-0.8rem;
    
 }
-.badge-lft
+.badge-right
 {
     position: absolute;
     left:4rem;
@@ -133,3 +133,27 @@
     top:-0.8rem;
     color:red; 
 }
+/* media query starts */
+@media only screen and (min-width:500px )and(max-width:1300px) {
+    body {
+        height: 100%;
+        width: 100%;
+      }
+
+      .avatar-badges-container,
+      .icon-badges-container,
+      .text-badges-container
+      {
+          width:40%;
+          gap:0.3rem;
+          flex-shrink: 2;
+          display: flex;
+      }
+
+.code-snippet img
+{
+    width:30%;
+
+}
+
+    }

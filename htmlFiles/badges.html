@@ -74,7 +74,7 @@
              </li>
 
              <li class="sidebar-list-item sidebar-component-list component-active">
-                <a href="/htmlFiles/badges.html">Badge</a>
+                <a href="/htmlFiles/badges.html">Badges</a>
              </li>
 
              <li class="sidebar-list-item sidebar-component-list">
@@ -154,17 +154,17 @@
                 <div class="icon-badges-container">
                     <span class="icon-large">
                         <i class="fas fa-bell fg-cyan"></i>
-                        <span class="icon-badge badge-sm bg-purple">14</span>
+                        <span class="icon-badge  bg-purple">14</span>
                     </span>
 
                     <span class="icon-large">
                         <i class="fas fa-envelope fg-coco "></i>
-                        <span class="icon-badge badge-lft bg-red">+99</span>
+                        <span class="icon-badge badge-right bg-red">+99</span>
                     </span>
 
                     <span class="icon-large">
-                        <i class="fas fa-shopping-cart fg-green"></i>
-                        <span class="icon-badge badge-lft bg-purple">2</span>
+                        <i class="fad fa-shopping-cart fg-green"></i>
+                        <span class="icon-badge badge-right bg-purple">2</span>
                     </span>
 
                     <span class="icon-large">
@@ -194,14 +194,14 @@
     <!------------------------------ avatar without ouline code---------------------------------------------- -->
         <div class="section1-container">
         <h2 class="section-heading section-code-example-container">
-            <a href="">Code of Avatar</a>
-            <i class="fas fa-code" id ="avatar-code-btn"></i>
+            <a href="">Code of Badges</a>
+            <i class="fas fa-code" id ="badges-code-btn"></i>
         </h2>
 
-        <div class="code-snippet" id="avatar-div-code"> 
-           <img class="code-example" src="/stylesheets/avatar/avatarImage/code.png"/>
-           <img class="code-example" src="/stylesheets/avatar/avatarImage/code1.png"/>
-           <img class="code-example" src="/stylesheets/avatar/avatarImage/code2.png"/>
+        <div class="code-snippet" id="badges-div-code"> 
+           <img class="code-example" src="/images/badgeImage/code.png"/>
+           <img class="code-example" src="/images/badgeImage/code1.png"/>
+           <img class="code-example" src="/images/badgeImage/code2.png"/>
         </div>   
 
      </div>
@@ -210,12 +210,12 @@
 </div>
 <!-- ---------------------------------------------------------javascript functionality------------------------------- -->
  <script>
-                const avatarCodeBtn = document.querySelector("#avatar-code-btn");
-                const avatarDiv = document.querySelector("#avatar-div-code");
+                const badgesCodeBtn = document.querySelector("#badges-code-btn");
+                const badgecodeDiv = document.querySelector("#badges-div-code");
 
-                avatarCodeBtn.addEventListener("click",() =>{
+                badgesCodeBtn.addEventListener("click",() =>{
                         console.log("clicked");
-                        avatarDiv.style.display =="block" ? avatarDiv.style.display ="none": avatarDiv.style.display ="block";
+                        badgecodeDiv.style.display =="block" ? badgecodeDiv.style.display ="none": badgecodeDiv.style.display ="block";
                     });
 
 
