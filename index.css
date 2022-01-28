@@ -120,7 +120,10 @@
   .sidebar-list-item:hover{
       color: var(--light-teal);
   }
-  
+  /* .sidebar-container:hover
+  {
+        box-shadow: 2px 2px 8px var(--dark-stone);
+  } */
 /* ----------------------------------------------main-content-css-starts-here------------------------------- */
 .main-content-container{
     grid-row-start: 2 ;
