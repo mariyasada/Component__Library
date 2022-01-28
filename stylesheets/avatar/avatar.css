@@ -88,7 +88,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:var(--mediun-teal);
+    background-color:var(--medium-teal);
     color: var(--white-color);
 }
 .text-avatar-xl

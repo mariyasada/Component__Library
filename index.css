@@ -44,7 +44,7 @@
     position: fixed;
     top:0;
     width: 100%;
-    box-shadow: 1px 1px 3px gray;
+    box-shadow: 2px 2px 4px gray;
     z-index: 10;
     position: relative;
 }
@@ -120,6 +120,7 @@
   .sidebar-list-item:hover{
       color: var(--light-teal);
   }
+  
 /* ----------------------------------------------main-content-css-starts-here------------------------------- */
 .main-content-container{
     grid-row-start: 2 ;

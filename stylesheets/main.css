@@ -14,14 +14,14 @@
     --white-color:white;
     --light-slate:#f1f5f9;
     --dark-teal:#0f766e;
-    --mediun-teal:#0d9488;
+    --medium-teal:#0d9488;
     --dark-cyan:#0e7490;
     --light-teal:#14b8a6;
     --ex-light-teal:#ccfbf1;
     --light-stone:#a8a29e;
     --dark-stone:#57534e;
     --dark-green:#14532d;
-    --light-green:#4ade80;
+    --light-green:#37ca6d;
     --dark-zinc:#71717a;
     --dark-sky:#0369a1;
     --light-sky:#e0f2fe;
@@ -38,6 +38,7 @@
     --dark-purple:#a21caf;
     --light-purple:#e879f9;
     --red-color:#ef4444;
+    --medium-green:#1a9b49;
 }
 /* RESET CSS */
 
