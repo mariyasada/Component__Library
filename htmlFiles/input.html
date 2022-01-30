@@ -128,11 +128,11 @@
                     
                         <h3 class="section-second-sub-heading">TextBox</h3>
 
-                        <p class="sub-text-content"> </p>
+                        <p class="sub-text-content">In form designing, we use variety of text box.Here are the example of basic text box, input with date type and text box with label. you can see the code for more details. </p>
 
                                 <div class="input-container">
                                         <input type="text" class="input-textbox" placeholder="search">                                  
-                                </div>
+                                 </div>
 
                               <div class="input-container">
                                         <label for="name" class="input-label">Name:</label>
@@ -150,19 +150,25 @@
                  <!---------------------input with validation---------------------  -->
                  <h3 class="section-second-sub-heading">TextBox with validation</h3>
 
-                        <p class="sub-text-content"> </p>
+                        <p class="sub-text-content">We always see when we entered the passsword less than 8 character it show the error message of password should be minimum 8 character so this validation has been used in so many places. Here are the some example of validation message. you can add error-validation class to input element and  error message to span element. </p>
 
 
                         <div class="input-validation-container">
                                 <label for="name" class="input-label fr-green">Name:</label>
-                               <input type="text" class="input-textbox textbox-validation" placeholder="Enter Your Name">
-                               <span class="error-validator"> Please Enter your name</span>                                 
+                               <input type="text" class="input-textbox error-validation" placeholder="Enter Your Name">
+                               <span class="error-message"> Please Enter your name</span>                                 
                          </div>
 
                          <div class="input-validation-container">
                                 <label for="name" class="input-label fr-green">Password:</label>
-                                <input type="text" class="input-textbox" placeholder="Enter password">
-                                <span class="primary-validator">password must be greater than 6 character</span>                                 
+                                <input type="text" class="input-textbox primary-validation" placeholder="Enter password">
+                                <span class="primary-message">password must be greater than 6 character</span>                                 
+                         </div>
+
+                         <div class="input-validation-container">
+                            <label for="name" class="input-label fr-green">Password:</label>
+                            <input type="text" class="input-textbox success-validation" placeholder="Enter password">
+                            <span class="success-message">This is success stage form validation</span>                                 
                         </div>
 
                 </div>
@@ -173,28 +179,20 @@
        
                 <div class="section1-container">
                                 <h2 class="section-heading section-code-example-container">
-                                    <a href="">Code of Image Component</a>
-                                    <i class="fas fa-code" id ="image-code-btn"></i>
+                                    <a href="">Code of Input Component</a>
+                                    <i class="fas fa-code" id ="input-code-btn"></i>
                                 </h2>
 
-                                <div class="code-snippet" id="image-div-code"> 
+                                <div class="code-snippet" id="input-div-code"> 
                                     
                                     <iframe class="code-example"
-                                            src="https://carbon.now.sh/embed/ptH56MHKxFIMLjgQLgGK"
-                                            style="width: 600px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
-                                            sandbox="allow-scripts allow-same-origin"
-                                            loading="lazy">
-                                    </iframe>
-
-                                    <iframe class="code-example"
-                                            src="https://carbon.now.sh/embed/3w6gNUhugdUqvPiLa15k"
+                                            src="https://carbon.now.sh/embed/cFmGymGBBdKAoqqHPyxY"
                                             style="width: 700px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
-                                            sandbox="allow-scripts allow-same-origin"
-                                            loading="lazy">
-                                    </iframe>
+                                            sandbox="allow-scripts allow-same-origin">
+                                     </iframe>
 
-                                    <iframe class="code-example"
-                                            src="https://carbon.now.sh/embed/Q2NsX7lqcTQV37uZcnhA"
+                                     <iframe class="code-example"
+                                            src="https://carbon.now.sh/embed/qqwB3ycbF0ni4q6S1eki"
                                             style="width: 700px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
                                             sandbox="allow-scripts allow-same-origin">
                                     </iframe>
@@ -207,12 +205,12 @@
     </div>
 <!-- ---------------------------------------------------------javascript functionality------------------------------- -->
  <script>
-                const imageCodeBtn = document.querySelector("#image-code-btn");
-                const imageCodeDiv = document.querySelector("#image-div-code");
+                const inputCodeBtn = document.querySelector("#input-code-btn");
+                const inputCodeDiv = document.querySelector("#input-div-code");
 
-                imageCodeBtn.addEventListener("click",() =>{
+                inputCodeBtn.addEventListener("click",() =>{
                         console.log("clicked");
-                        imageCodeDiv .style.display =="block" ? iamgeCodeDiv .style.display ="none": imageCodeDiv .style.display ="block";
+                        inputCodeDiv .style.display =="block" ? inputCodeDiv .style.display ="none": inputCodeDiv .style.display ="block";
                     });
 
 

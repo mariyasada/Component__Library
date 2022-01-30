@@ -32,7 +32,7 @@
     padding: 1rem;  
 }
 
-.textbox-validation
+.error-validation
 {
     border: 1px solid var(--red-color);
     
@@ -42,16 +42,15 @@
     position: relative;
     margin-top: 1.5rem;
 }
-.error-validator
+.error-message
 {
     color: var(--red-color);
     font-size: 1.5rem;
     position: absolute;
     top:10rem;
-    left:1rem;
-    
+    left:1rem;  
 }
-.primary-validator
+.primary-message
 {
     color: var(--dark-sky);
     font-size: 1.5rem;
@@ -59,6 +58,24 @@
     top:10rem;
     left:1rem;
 }
+.success-message
+{
+    color: var(--medium-green);
+    font-size: 1.5rem;
+    position: absolute;
+    top:10rem;
+    left:1rem;
+}
+.success-validation
+{
+    border: 2px solid var(--medium-green);
+}
+
 .input-textbox:focus{
     border: 3px solid var(--dark-blue);
+}
+
+.primary-validation
+{
+    border: 2px solid var(--dark-sky);
 }
