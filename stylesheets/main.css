@@ -3,6 +3,9 @@
 @import url(./alert/alert.css);
 @import url(./avatar/avatar.css);
 @import url(./Button/button.css);
+@import url(./card/card.css);
+@import url(./Image/image.css);
+@import url(./Input/input.css);
 
 
 
@@ -38,7 +41,7 @@
     --dark-chocolate:#6B2309;
     --dark-purple:#a21caf;
     --light-purple:#e879f9;
-    --red-color:#ef4444;
+    --red-color:#f50707;
     --medium-green:#1a9b49;
 }
 /* RESET CSS */

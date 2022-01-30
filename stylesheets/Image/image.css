@@ -1,0 +1,53 @@
+.sub-text-content
+{
+    font-size: 1.6rem;
+    margin-top:-2rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+.responsive-image-container,
+.round-image-container,
+.square-image-container
+{
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 80vw;
+    padding: 0.6rem;
+    gap:2.5rem;
+    align-items: center;
+    justify-content: space-between;
+    flex:1;
+}
+.responsive-image
+{
+    width:100%;
+    height:100%;
+}
+
+.round-image
+{
+    border-radius: 50%;
+}
+
+.image-lg
+{
+    height:30rem;
+    width:30rem;
+}
+.image-md
+{
+    height:20rem;
+    width:20rem;
+}
+
+.image-sm
+{
+    height:10rem;
+    width:10rem;
+}
+
+.square-image
+{
+    border:1px solid var(--light-stone);
+    border-radius: 0.3rem;
+}

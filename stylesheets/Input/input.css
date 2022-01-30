@@ -1,0 +1,64 @@
+.input-container,
+.input-validation-container
+{
+    display:flex;
+    flex-wrap: wrap;
+    max-width:80vw;
+    padding: 0.6rem;
+    gap:2.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex:1;
+}
+.input-label
+{
+    text-align: start;
+    width:100%;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    color:var(--dark-cyan);
+}
+
+.input-textbox
+{
+    outline:none;
+    display: inline-block;
+    max-width:100%;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    border:2px solid var(--dark-stone);
+    padding: 1rem;  
+}
+
+.textbox-validation
+{
+    border: 1px solid var(--red-color);
+    
+}
+.input-validation-container
+{
+    position: relative;
+    margin-top: 1.5rem;
+}
+.error-validator
+{
+    color: var(--red-color);
+    font-size: 1.5rem;
+    position: absolute;
+    top:10rem;
+    left:1rem;
+    
+}
+.primary-validator
+{
+    color: var(--dark-sky);
+    font-size: 1.5rem;
+    position: absolute;
+    top:10rem;
+    left:1rem;
+}
+.input-textbox:focus{
+    border: 3px solid var(--dark-blue);
+}
