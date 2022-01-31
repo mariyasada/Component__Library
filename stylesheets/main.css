@@ -6,6 +6,9 @@
 @import url(./card/card.css);
 @import url(./Image/image.css);
 @import url(./Input/input.css);
+@import url(./textutil/text.css);
+@import url(/stylesheets/documentation.css);
+@import url(/stylesheets/list/list.css);
 
 
 

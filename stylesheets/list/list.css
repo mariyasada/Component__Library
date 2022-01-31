@@ -1,0 +1,24 @@
+@import url(/stylesheets/card/card.css);
+.list-container
+{
+    max-width:15rem;
+    height:auto;
+    font-size: 2rem;
+    margin-top: -5rem;
+}
+.circle-style
+{
+    list-style-type:circle ;
+}
+.square-style
+{
+    list-style-type:square;
+}
+.none-style
+{
+    list-style-type:none;
+}
+.ol-list
+{
+    padding: 0.2rem;
+}

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Input component File</title>
-    <link rel="stylesheet" href="/stylesheets/Input/input.css" type="text/css">
+    <title>Text Utilities File</title>
+    <!-- <link rel="stylesheet" href="/stylesheets/Input/input.css" type="text/css"> -->
     <link rel="stylesheet" href="/stylesheets/main.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -88,16 +88,16 @@
                             <a href="/htmlFiles/image.html">Image</a>
                         </li>
 
-                        <li class="sidebar-list-item sidebar-component-list component-active">
+                        <li class="sidebar-list-item sidebar-component-list ">
                             <a href="/htmlFiles/input.html">Input</a>
                         </li>
 
-                        <li class="sidebar-list-item sidebar-component-list">
-                            <a href="">Text Utilities</a>
+                        <li class="sidebar-list-item sidebar-component-list component-active">
+                            <a href="/htmlFiles/textUtil.html">Text Utilities</a>
                         </li>
 
                         <li class="sidebar-list-item sidebar-component-list">
-                            <a href="">Lists</a>
+                            <a href="/htmlFiles/list.html">Lists</a>
                         </li>
 
                         <li class="sidebar-list-item sidebar-component-list">
@@ -110,92 +110,55 @@
       <section class="main-content-container">
                 <div class="section1-container">
                             <h2 class="section-heading">
-                                <a href="#input">Input </a>
+                                <a href="#">Text Utilities </a>
                             </h2>
 
                              <p class="section-text-content">
-                                The input element represents a typed data field, usually with a form control to allow the user to enter the data,edit the data.The type attribute controls the data type (and associated control) of the element
+                                Text utilities are used for text alignment, styles and overflow things.
                              </p>
 
                            <hr>
-                               <h3 class="section-sub-heading">Types of Input</h3>
+                               <h3 class="section-sub-heading">Types of Text Utilities</h3>
                            <hr>
 
-                    <p class="section-text-content"> There are lots of input type like date, time, email, number, color etc. In IQRA UI, you can see the textbox element and textbox with validation. </p>
+                    <p class="section-text-content"> We are using different types of text in web designing like h1,h2 and diffrent size of text. IQRA UI includes diffrent size of text what you have to do is just add the class of that text into your element. </p>
         
                 <!--  --------------------------------Input container---------------------------------- -->
               <div class="component-type-flex-container">
                     
-                        <h3 class="section-second-sub-heading">TextBox</h3>
+                        <h3 class="section-second-sub-heading">Text</h3>
 
-                        <p class="sub-text-content">In form designing, we use variety of text box.Here are the example of basic text box, input with date type and text box with label. you can see the code for more details. </p>
+                        <p class="sub-text-content">In application designing we are using different types of heading and text. Here are the example of Iqra UI's text utilities class. If you want a large heading then add text-size-lg class to element and if you want bold heading then add text-bold class.</p>
 
-                                <div class="input-container">
-                                        <input type="text" class="input-textbox" placeholder="search">                                  
+                                <div class="text-util-container">
+                                        <div class="text-size-xl text-bold">This is extra large heading with bold weight.</div>  
+                                        <div class=" text-size-xl">This is extra large heading without bold weight.</div> 
+                                        <div class=" text-size-lg">This is large heading without bold weight.</div>
+                                        <div class=" text-size-md">This is medium text without bold weight.</div>
+                                        <div class=" text-size-sm text-with-light-weight">This is small text with light weight.</div>
+                                        <div class=" text-size-md gray-text text-bold">This is medium gray text with bold weight.</div>
+                                     <span class="text-center"> <div class="text-size-md">This is center text.</div></span> 
+                                     <span class="text-left"> <div class="text-size-md">This is center text.</div></span> 
+                                     <span class="text-right"> <div class="text-size-md">This is center text.</div></span> 
+                                     <div class=" text-size-md text-uppercase">This is medium uppercase text.</div>
+                                     <div class=" text-size-md text-spacing">This is medium text with spacing .</div>
                                  </div>
 
-                              <div class="input-container">
-                                        <label for="name" class="input-label">Name:</label>
-                                       <input type="text" class="input-textbox" placeholder="Enter Your Name">                                  
-                              </div>
-
-                              <div class="input-container">
-                                        <label for="name" class="input-label">Birth-Date:</label>
-                                        <input type="date" class="input-textbox" >     
-                                                                    
-                              </div>  
-
-                              
-                              
-                 <!---------------------input with validation---------------------  -->
-                 <h3 class="section-second-sub-heading">TextBox with validation</h3>
-
-                        <p class="sub-text-content">We always see when we entered the passsword less than 8 character it show the error message of password should be minimum 8 character so this validation has been used in so many places. Here are the some example of validation message. you can add error-validation class to input element and  error message to span element. </p>
-
-
-                        <div class="input-validation-container">
-                                <label for="name" class="input-label fr-green">Name:</label>
-                               <input type="text" class="input-textbox error-validation" placeholder="Enter Your Name">
-                               <span class="error-message"> Please Enter your name</span>                                 
-                         </div>
-
-                         <div class="input-validation-container">
-                                <label for="name" class="input-label fr-green">Password:</label>
-                                <input type="text" class="input-textbox primary-validation" placeholder="Enter password">
-                                <span class="primary-message">password must be greater than 6 character</span>                                 
-                         </div>
-
-                         <div class="input-validation-container">
-                            <label for="name" class="input-label fr-green">Password:</label>
-                            <input type="text" class="input-textbox success-validation" placeholder="Enter password">
-                            <span class="success-message">This is success stage form validation</span>                                 
-                        </div>
-
-                </div>
-
-
-                 
-    <!------------------------------ code of image component---------------------------------------------- -->
+<!------------------------------ code of Text Utilities---------------------------------------------- -->
        
                 <div class="section1-container">
                                 <h2 class="section-heading section-code-example-container">
-                                    <a href="">Code of Input Component</a>
-                                    <i class="fas fa-code" id ="input-code-btn"></i>
+                                    <a href="">Code of Text Utilities</a>
+                                    <i class="fas fa-code" id ="TextUt-code-btn"></i>
                                 </h2>
 
-                                <div class="code-snippet" id="input-div-code"> 
+                                <div class="code-snippet" id="TextUt-div-code"> 
                                     
                                     <iframe class="code-example"
-                                            src="https://carbon.now.sh/embed/cFmGymGBBdKAoqqHPyxY"
+                                            src="https://carbon.now.sh/embed/wo5AqL6fCNkZYVMV8qO8"
                                             style="width: 700px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
                                             sandbox="allow-scripts allow-same-origin">
                                      </iframe>
-
-                                     <iframe class="code-example"
-                                            src="https://carbon.now.sh/embed/qqwB3ycbF0ni4q6S1eki"
-                                            style="width: 700px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
-                                            sandbox="allow-scripts allow-same-origin">
-                                    </iframe>
                     
                                 </div>   
                 </div>
@@ -205,12 +168,12 @@
     </div>
 <!-- ---------------------------------------------------------javascript functionality------------------------------- -->
  <script>
-                const inputCodeBtn = document.querySelector("#input-code-btn");
-                const inputCodeDiv = document.querySelector("#input-div-code");
+const TextUtCodeBtn = document.querySelector("#TextUt-code-btn");
+const TextUtCodeDiv = document.querySelector("#TextUt-div-code");
 
-                inputCodeBtn.addEventListener("click",() =>{
-                        console.log("clicked");
-                        inputCodeDiv .style.display =="block" ? inputCodeDiv .style.display ="none": inputCodeDiv .style.display ="block";
+TextUtCodeBtn.addEventListener("click",() =>{
+console.log("clicked");
+ TextUtCodeDiv .style.display =="block" ? TextUtCodeDiv .style.display ="none": TextUtCodeDiv .style.display ="block";
                     });
 
  </script>
