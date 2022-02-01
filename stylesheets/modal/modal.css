@@ -2,10 +2,12 @@
 {
     height: auto;
     max-width:40vw;
-    background-color: var(--ex-light-purple);
+    background:linear-gradient(var(--dark-pink),var(--light-rose));
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    box-shadow: 2px 2px 4px var(--ex-light-purple);
+    color:var(--white-color);
 }
 .modal-body
 {
@@ -18,7 +20,7 @@
     align-items:center;
     justify-content: flex-end;
     gap:2rem;
-    background-color: var(--ex-light-teal);
+    /* background-color: var(--light-rose); */
     padding:2rem;
     width:100%;
 }
