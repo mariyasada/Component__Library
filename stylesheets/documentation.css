@@ -1,7 +1,8 @@
 .text-util-container,
 .Unordered-list-container,
 .ordered-list-container,
-.stacked-list-container
+.stacked-list-container,
+.navbar-component-container
 
 {
     display:flex;

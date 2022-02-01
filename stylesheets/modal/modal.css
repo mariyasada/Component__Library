@@ -1,0 +1,24 @@
+.modal-container
+{
+    height: auto;
+    max-width:40vw;
+    background-color: var(--ex-light-purple);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.modal-body
+{
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+.modal-footer
+{
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    gap:2rem;
+    background-color: var(--ex-light-teal);
+    padding:2rem;
+    width:100%;
+}

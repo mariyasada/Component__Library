@@ -9,6 +9,8 @@
 @import url(./textutil/text.css);
 @import url(/stylesheets/documentation.css);
 @import url(/stylesheets/list/list.css);
+@import url(/stylesheets/navigation/nav.css);
+@import url(/stylesheets/modal/modal.css);
 
 
 
@@ -46,6 +48,8 @@
     --light-purple:#e879f9;
     --red-color:#f50707;
     --medium-green:#1a9b49;
+    --ex-light-red: #fecaca;
+    --ex-light-purple:#efd6f3;
 }
 /* RESET CSS */
 
