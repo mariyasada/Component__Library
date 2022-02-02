@@ -2,7 +2,10 @@
 .Unordered-list-container,
 .ordered-list-container,
 .stacked-list-container,
-.navbar-component-container
+.navbar-component-container,
+.all-rating-container,
+.all-toast-container,
+.grid-component-container
 
 {
     display:flex;

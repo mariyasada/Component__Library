@@ -102,7 +102,7 @@
       grid-column-end: 2;
       height: 100vh;
       position: fixed;
-      top:0;
+      top:5rem;
       left:0;
       bottom: 0;
       z-index:25;
@@ -113,12 +113,12 @@
   }
   .sidebar-list-item
   {
-      font-size: 2rem;
+      font-size: 1.8rem;
       list-style: none;
-      padding: 0.5rem;
+      padding: 0.3rem;
       font-weight: 500;
-      align-self: center;
-      /* margin-top:2rem; */
+      align-items: center;
+      margin-top:0.4rem;
   }
   .sidebar-list-item:hover{
       color: var(--light-teal);

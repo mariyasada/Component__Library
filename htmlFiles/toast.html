@@ -104,8 +104,16 @@
                             <a href="/htmlFiles/navigation.html">Navigation</a>
                         </li>
 
-                        <li class="sidebar-list-item sidebar-component-list component-active">
+                        <li class="sidebar-list-item sidebar-component-list">
                             <a href="/htmlFiles/modal.html">Modal</a>
+                        </li>
+
+                        <li class="sidebar-list-item sidebar-component-list">
+                            <a href="/htmlFiles/rating.html">Rating</a>
+                        </li>
+
+                        <li class="sidebar-list-item sidebar-component-list component-active">
+                            <a href="/htmlFiles/toast.html">Toast</a>
                         </li>
 
           </ul>
@@ -114,70 +122,62 @@
       <section class="main-content-container">
                 <div class="section1-container">
                             <h2 class="section-heading">
-                                <a href="#modal">Modal</a>
+                                <a href="#toast">Rating</a>
                             </h2>
 
                              <p class="section-text-content">
-                                A modal (also called a modal window or lightbox) is a web page element that displays in front of and deactivates all other page content. ... Modals are often used to direct users' attention to an important action or piece of information on a website or application.
+                                The toast component is a non-disruptive message that appears at the bottom of the interface to provide quick, at-a-glance feedback on the outcome of an action.They're meant to be noticed without disrupting a user's experience or requiring an action to be taken. 
                              </p>
 
                            <hr>
-                               <h3 class="section-sub-heading">Type of Modal</h3>
+                               <h3 class="section-sub-heading">Type of Toast</h3>
                            <hr>
 
-                    <p class="section-text-content">If you want to use the modal of IQRA UI then add class modal-container and below code to element.</p>
+                    <p class="section-text-content">IQRA UI includes Toast with green,red background color.If you want to use this toast then add toast-container class to element. see the code below for more information.</p>
         
                 <!--  --------------------------------Modal container---------------------------------- -->
               <div class="component-type-flex-container">
-
-                          <div class="modal-container border-round">
-                              <div class="modal-body">
-                                    <h2 class="modal-heading">Confirmation</h2>
-                                    <p class="modal-detail">Are you sure you want to delete your account? This action cannot be undone and you will be
-                                        unable to recover any data.
-                                    </p>
+                        <div class="all-toast-container">
+                                <div class="toast-container bg-blue border-round fc-green">
+                                    <p class="toast-detail">saved!!</p>
+                                    <i class="fas fa-times"></i>
                                 </div>
 
-                                <div class="modal-footer">
-                                   <span><button class="btn btn-secondary border-round">Cancel</button></span> 
-                                    <span><button class="btn btn-danger border-round">Yes, delete it!</button></span>
+                                <div class="toast-container bg-red border-round fc-red">
+                                    <p class="toast-detail">Not saved!! try again later</p>
+                                    <i class="fas fa-times"></i>
                                 </div>
 
-                          </div>
+                         </div>
+                         <div class="all-toast-container">
 
-                          <!-- ------------------simple Modal---------------- -->
-                          <div class="simple-modal-container border-round">
-                                    <div class="modal-body">
-                                        <h2 class="modal-heading">Use location Service?</h2>
-                                        <p class="modal-detail">Let us help apps determine your location.This means sending anonymus loaction data to us, even when no data apps are running
-                                        </p>
+                                <div class="simple-toast-container bg-with-shadow">
+                                    <p class="toast-detail">Can't send photo. Retry in 5 seconds.</p>
+                                    <div class="button-icon-container">
+                                            <span><button class="btn btn-primary border-round">Retry</button></span>
+                                            <i class="fas fa-times"></i>
                                     </div>
+                                </div>
 
-                                    <div class="modal-footer">
-                                        <span><button class="btn btn-secondary border-round">DISAGREE</button></span> 
-                                        <span><button class="btn btn-primary border-round">AGREE</button></span>
-                                    </div>
-
-                        </div>
-             </div>
+                         </div>
+            </div>
   </div>
 
-<!------------------------------ code of Modal---------------------------------------------- -->
+<!------------------------------ code of Toast---------------------------------------------- -->
        
                 <div class="section1-container">
                                 <h2 class="section-heading section-code-example-container">
-                                    <a href="">Code of Modal</a>
-                                    <i class="fas fa-code" id ="modal-code-btn"></i>
+                                    <a href="">Code of Rating</a>
+                                    <i class="fas fa-code" id ="toast-code-btn"></i>
                                 </h2>
 
-                                <div class="code-snippet" id="modal-div-code"> 
+                                <div class="code-snippet" id="toast-div-code"> 
                                     
                                     <iframe class="code-example"
-                                            src="https://carbon.now.sh/embed/D7MVYKqCdnrBntsnojAQ"
-                                            style="width: 700px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
-                                            sandbox="allow-scripts allow-same-origin">
-                                    </iframe>
-                    
+                                    src="https://www.thiscodeworks.com/embed/61fa6f51b783be0015bbae92" 
+                                    style="width: 100%; height: 424px;" frameborder="0">
+                                 </iframe>
+                   
                                 </div>   
                 </div>
          <!-------------------------------------------------  -->
@@ -186,12 +186,12 @@
     </div>
 <!-- ---------------------------------------------------------javascript functionality------------------------------- -->
  <script>
-const modalCodeBtn = document.querySelector("#modal-code-btn");
-const modalCodeDiv = document.querySelector("#modal-div-code");
+const toastCodeBtn = document.querySelector("#toast-code-btn");
+const toastCodeDiv = document.querySelector("#toast-div-code");
 
-modalCodeBtn.addEventListener("click",() =>{
+toastCodeBtn.addEventListener("click",() =>{
 console.log("clicked");
- modalCodeDiv .style.display =="block" ? modalCodeDiv .style.display ="none": modalCodeDiv .style.display ="block";
+ toastCodeDiv .style.display =="block" ? toastCodeDiv .style.display ="none": toastCodeDiv .style.display ="block";
                     });
 
  </script>
