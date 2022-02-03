@@ -161,9 +161,10 @@
     background-color: black;
     box-shadow: 2px 2px 3px var(--light-stone);
 }
+
 .fluid-btn
 {
-   width:100%;
+   min-width:100%;
 }
 /* hover effect starts */
 .btn:hover{
