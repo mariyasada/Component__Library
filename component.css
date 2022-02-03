@@ -106,7 +106,7 @@
       left:0;
       bottom: 0;
       z-index:25;
-      width:17rem;
+      width:auto;
       display: flex;
       align-items: center;
       
